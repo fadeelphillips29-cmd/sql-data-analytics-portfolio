@@ -33,3 +33,8 @@ All counts matched the README. The query completed in 0.33 seconds with no error
 - The last query in the script checks the row counts. Checking results against an expected value is a habit I'll use in every lesson.
 
 **Next:** check the certification courses, then Lesson 1 (Databases, tables, keys and relationships).
+## 2026-11-11 – Lesson 1: Databases, tables, keys and relationships
+- Learned: tables, rows, columns, primary and foreign keys, one-to-many, many-to-many (link table), self-reference, NULL.
+- Practice: identified the keys of every table in business_db, traced customers -> orders -> order_items -> products, and explored the employees hierarchy in pgAdmin.
+- Struggled with: telling a foreign key from an ordinary column, row meaning, and the direction of one-to-many. All corrected after feedback.
+- Files added: sql/lessons/lesson-01-databases-tables-keys.md, sql/queries/lesson-01-exploring-tables.sql.
