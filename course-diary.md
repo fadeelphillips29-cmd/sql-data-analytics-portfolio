@@ -43,3 +43,8 @@ All counts matched the README. The query completed in 0.33 seconds with no error
 - Practice: wrote my first queries on products and customers in pgAdmin and saved them as an .sql file.
 - Struggled with: a column-name typo, sort direction, and the order of an AS alias. All fixed after reading the error messages and AI assistance.
 - Files added: sql/lessons/lesson-02-select-basics.md, sql/queries/lesson-02-select-basics.sql.
+## 2026-11-13 – Lesson 3: WHERE, operators, NULL handling and pattern matching
+- Learned: filtering with comparison operators, AND/OR/NOT, BETWEEN, IN, LIKE and IS NULL.
+- Practice: filtered products, customers and orders on business_db; first lesson reviewed with the sql-queries skill.
+- Struggled with: text quotes and case, sort direction (again), and AND/OR precedence. All fixed after feedback.
+- Files added: sql/lessons/lesson-03-where-filtering.md, sql/queries/lesson-03-where-filtering.sql.

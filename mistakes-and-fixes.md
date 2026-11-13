@@ -15,3 +15,8 @@
 | 2026-11-13 | Lesson 2 | Typed unit_name instead of unit_price | Spelling mistake in a column name | Read the error message and caret; check column names in the Object Explorer |
 | 2026-11-13 | Lesson 2 | Used ORDER BY unit_price DESC when cheapest first was asked | Did not match the sort direction to the question | Use ASC for smallest first; compare the first result row with the question |
 | 2026-11-13 | Lesson 2 | Wrote margin_per_unit AS unit_price - unit_cost | Put the new name before AS | The expression comes first, the alias after AS: unit_price - unit_cost AS margin_per_unit |
+| 2026-11-13 | Lesson 3 | Wrote WHERE category IN spares > 1000 | No quotes on text, IN used without a list, and the price test was not attached to unit_price | category = 'Spares' AND unit_price > 1000 |
+| 2026-11-13 | Lesson 3 | Used ORDER BY unit_price ASC for "most to least expensive" (repeat of Lesson 2) | Did not match sort direction to the question | Underline the sort word in the question: most/highest = DESC, cheapest/oldest = ASC |
+| 2026-11-13 | Lesson 3 | province = 'Gauteng' OR province = 'Western Cape' AND name LIKE '%Group' returned all Gauteng rows | AND is evaluated before OR | Use IN ('Gauteng', 'Western Cape') or brackets |
+| 2026-11-13 | Lesson 3 | Filtered status NOT IN ('cancelled') and nothing was removed | Text is case sensitive; the data has 'Cancelled' | Match the exact capitalisation and check the result for what should be excluded |
+| 2026-11-13 | Lesson 3 | Left industry out of the SELECT list | Did not check each requested column | Tick off every column named in the question |
