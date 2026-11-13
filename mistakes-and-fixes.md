@@ -12,3 +12,6 @@
 | 2026-11-11 | Lesson 1 | Named order_item_id as the link table | Mixed up a column with a table | The link table is order_items; it holds both order_id and product_id |
 | 2026-11-11 | Lesson 1 | Said Ayesha was her own direct report; called employees-orders many-to-many | Confused "is" with "reports to"; did not check where the FK sits | Filter on manager_id = 3; the FK on the many side (orders.employee_id) means one-to-many |
 | 2026-11-11 | Lesson 1 | WHERE product_id = '16' and assumed the ID | Quoting a number is a bad habit; the ID was not checked | Look the ID up by name first and leave numbers unquoted |
+| 2026-11-13 | Lesson 2 | Typed unit_name instead of unit_price | Spelling mistake in a column name | Read the error message and caret; check column names in the Object Explorer |
+| 2026-11-13 | Lesson 2 | Used ORDER BY unit_price DESC when cheapest first was asked | Did not match the sort direction to the question | Use ASC for smallest first; compare the first result row with the question |
+| 2026-11-13 | Lesson 2 | Wrote margin_per_unit AS unit_price - unit_cost | Put the new name before AS | The expression comes first, the alias after AS: unit_price - unit_cost AS margin_per_unit |

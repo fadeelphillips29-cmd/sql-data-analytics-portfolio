@@ -38,3 +38,8 @@ All counts matched the README. The query completed in 0.33 seconds with no error
 - Practice: identified the keys of every table in business_db, traced customers -> orders -> order_items -> products, and explored the employees hierarchy in pgAdmin.
 - Struggled with: telling a foreign key from an ordinary column, row meaning, and the direction of one-to-many. All corrected after feedback.
 - Files added: sql/lessons/lesson-01-databases-tables-keys.md, sql/queries/lesson-01-exploring-tables.sql.
+## 2026-11-13 – Lesson 2: SELECT, ORDER BY, DISTINCT and LIMIT
+- Learned: choosing columns, sorting (ASC/DESC), DISTINCT, LIMIT, aliases and calculated columns.
+- Practice: wrote my first queries on products and customers in pgAdmin and saved them as an .sql file.
+- Struggled with: a column-name typo, sort direction, and the order of an AS alias. All fixed after reading the error messages and AI assistance.
+- Files added: sql/lessons/lesson-02-select-basics.md, sql/queries/lesson-02-select-basics.sql.
