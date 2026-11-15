@@ -48,3 +48,12 @@ All counts matched the README. The query completed in 0.33 seconds with no error
 - Practice: filtered products, customers and orders on business_db; first lesson reviewed with the sql-queries skill.
 - Struggled with: text quotes and case, sort direction (again), and AND/OR precedence. All fixed after feedback.
 - Files added: sql/lessons/lesson-03-where-filtering.md, sql/queries/lesson-03-where-filtering.sql.
+## 2026-11-15 – Challenge 1: Loyalty call list
+- Task: filter customers by province, industry and join date, sorted by longest-standing.
+- Result: correct after fixing one comparison sign (> to <).
+- Files added: sql/challenges/challenge-01-loyalty-call-list.md, sql/queries/challenge-01-loyalty-call-list.sql.
+## 2026-11-15 – Bridge A: Constraints and designing tables
+- Learned: PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE and CHECK, and how to design tables from a business description.
+- Practice: read the constraints in business_db, designed machine downtime tables, and created them in a separate practice schema.
+- Struggled with: answering every part of a question, and remembering UNIQUE and CHECK rules in a design.
+- Files added: sql/lessons/bridge-a-constraints-design.md, sql/queries/bridge-a-constraints-design.sql.
