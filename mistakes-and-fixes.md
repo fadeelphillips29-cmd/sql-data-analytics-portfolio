@@ -20,3 +20,8 @@
 | 2026-11-13 | Lesson 3 | province = 'Gauteng' OR province = 'Western Cape' AND name LIKE '%Group' returned all Gauteng rows | AND is evaluated before OR | Use IN ('Gauteng', 'Western Cape') or brackets |
 | 2026-11-13 | Lesson 3 | Filtered status NOT IN ('cancelled') and nothing was removed | Text is case sensitive; the data has 'Cancelled' | Match the exact capitalisation and check the result for what should be excluded |
 | 2026-11-13 | Lesson 3 | Left industry out of the SELECT list | Did not check each requested column | Tick off every column named in the question |
+| 2026-11-15 | Challenge 1 | Used customer_since > '2023-01-01' for "since before 2023" | Wrong comparison sign; the query ran with no error | "Before" is <; check one value in the result against each rule |
+| 2026-11-16 | Lesson 4 | Searched the wrong table/columns for revenue | Did not check where quantity, price and discount live | Look at the table columns first; revenue = quantity * unit_price * (1 - discount) in order_items |
+| 2026-11-16 | Lesson 4 | Aggregate and text column inside WHERE | WHERE filters rows before aggregating | Filter rows in WHERE; filter on aggregate results with HAVING (Lesson 5) |
+| 2026-11-16 | Lesson 4 | MIN/MAX(order_id) instead of order_date | Used the ID because it looked like an order number | Use the column that holds what the question asks for (date) |
+| 2026-11-16 | Lesson 4 | Unnamed aggregate column showed as "count" | Forgot the alias | Always add AS alias to calculated columns |
