@@ -25,3 +25,5 @@
 | 2026-11-16 | Lesson 4 | Aggregate and text column inside WHERE | WHERE filters rows before aggregating | Filter rows in WHERE; filter on aggregate results with HAVING (Lesson 5) |
 | 2026-11-16 | Lesson 4 | MIN/MAX(order_id) instead of order_date | Used the ID because it looked like an order number | Use the column that holds what the question asks for (date) |
 | 2026-11-16 | Lesson 4 | Unnamed aggregate column showed as "count" | Forgot the alias | Always add AS alias to calculated columns |
+| 2026-11-17 | Challenge 2 | Trailing comma after the last column caused a syntax error at FROM | A comma tells SQL another column follows | No comma after the final item in the SELECT list |
+| 2026-11-17 | Challenge 2 | Used average_freight instead of the requested avg_freight | Did not re-read the required column names | Match requested names exactly; other tools depend on them |

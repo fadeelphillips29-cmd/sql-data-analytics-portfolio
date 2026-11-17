@@ -57,3 +57,7 @@ All counts matched the README. The query completed in 0.33 seconds with no error
 - Practice: read the constraints in business_db, designed machine downtime tables, and created them in a separate practice schema.
 - Struggled with: answering every part of a question, and remembering UNIQUE and CHECK rules in a design.
 - Files added: sql/lessons/bridge-a-constraints-design.md, sql/queries/bridge-a-constraints-design.sql.
+### 2026-11-16: Lesson 4 (Aggregates)
+Finished all three exercises and the bonus. Biggest lesson: read the question for the exact thing being asked, then pick the table and column for it. Downtime on Line A is 4.5% of planned time, which is the kind of number I could report at BAC.
+### 2026-11-17: Challenge 2 (Order health check)
+Built a one-row summary of Jul to Dec 2025 orders. 58 of 59 non-cancelled orders shipped (98.3%). Fixed a trailing-comma error and used COUNT(column) to count missing shipped dates.
