@@ -27,3 +27,5 @@
 | 2026-11-16 | Lesson 4 | Unnamed aggregate column showed as "count" | Forgot the alias | Always add AS alias to calculated columns |
 | 2026-11-17 | Challenge 2 | Trailing comma after the last column caused a syntax error at FROM | A comma tells SQL another column follows | No comma after the final item in the SELECT list |
 | 2026-11-17 | Challenge 2 | Used average_freight instead of the requested avg_freight | Did not re-read the required column names | Match requested names exactly; other tools depend on them |
+| 2026-11-17 | Lesson 5 | ORDER BY on a tied count gives an unpredictable order | Ties have no defined order | Add a second sort column, e.g. ORDER BY total_customers DESC, province |
+| 2026-11-17 | Lesson 5 | Used an unnecessary ::numeric cast in ROUND | Column was already numeric | Only cast when the column type needs it; check the column type first |

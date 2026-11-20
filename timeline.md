@@ -11,4 +11,5 @@
 | 2026-11-15 | Phase 1 – SQL | Bridge A: Constraints and designing tables | Complete | Constraints are rules the database enforces; referenced tables must be created first. |
 | 2026-11-16 | Phase 1 | Lesson 4: Aggregate functions | Complete | COUNT/SUM/AVG/MIN/MAX; pick the column that matches the question; aggregates never go in WHERE |
 | 2026-11-17 | Phase 1 | Challenge 2: Second-half order performance | Complete | COUNT(column) skips NULLs; no comma after the last column; use the exact alias names asked for |
+| 2026-11-17 | Phase 1 | Lesson 5: GROUP BY and HAVING | Complete | GROUP BY = per-group aggregates; WHERE filters rows, HAVING filters groups; HAVING repeats the formula |
 
