@@ -29,3 +29,5 @@
 | 2026-11-17 | Challenge 2 | Used average_freight instead of the requested avg_freight | Did not re-read the required column names | Match requested names exactly; other tools depend on them |
 | 2026-11-17 | Lesson 5 | ORDER BY on a tied count gives an unpredictable order | Ties have no defined order | Add a second sort column, e.g. ORDER BY total_customers DESC, province |
 | 2026-11-17 | Lesson 5 | Used an unnecessary ::numeric cast in ROUND | Column was already numeric | Only cast when the column type needs it; check the column type first |
+| 2026-11-20 | Bridge B | Ran the whole editor, so CREATE TABLE failed ("already exists") and stopped the rest | F5 runs everything when nothing is highlighted | Highlight only the statement to run, and comment out statements that already worked |
+| 2026-11-20 | Bridge B | Ran lesson example lines (including a DROP) without checking what they did | Treated illustrations as exercises | Read each statement before running it; never run DROP or DELETE without a check |

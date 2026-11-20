@@ -63,3 +63,5 @@ Finished all three exercises and the bonus. Biggest lesson: read the question fo
 Built a one-row summary of Jul to Dec 2025 orders. 58 of 59 non-cancelled orders shipped (98.3%). Fixed a trailing-comma error and used COUNT(column) to count missing shipped dates.
 ### 2026-11-17: Lesson 5 (GROUP BY and HAVING)
 Group counts added up to the 42 customers, and HAVING visibly removed a small status group. Downtime by line shows Line C is the worst at 6.7%, which is the sort of result I could take to a shift review at BAC. Top order (1023) is much larger than the rest and I still want to check it.
+### 2026-11-20: Bridge B (CREATE, INSERT, UPDATE, DELETE)
+Built a maintenance jobs table, inserted, updated and deleted rows, and saw a CHECK constraint reject a negative value. Biggest lesson: SELECT first with the same WHERE, and compare the row count before changing anything.
