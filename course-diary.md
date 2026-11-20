@@ -65,3 +65,5 @@ Built a one-row summary of Jul to Dec 2025 orders. 58 of 59 non-cancelled orders
 Group counts added up to the 42 customers, and HAVING visibly removed a small status group. Downtime by line shows Line C is the worst at 6.7%, which is the sort of result I could take to a shift review at BAC. Top order (1023) is much larger than the rest and I still want to check it.
 ### 2026-11-20: Bridge B (CREATE, INSERT, UPDATE, DELETE)
 Built a maintenance jobs table, inserted, updated and deleted rows, and saw a CHECK constraint reject a negative value. Biggest lesson: SELECT first with the same WHERE, and compare the row count before changing anything.
+### 2026-11-20: Challenge 3 (Late deliveries by salesperson)
+Got it right first time. Employee 5 has the most late orders (7), but a count is not a fair measure without total orders, so I want to build a late rate after JOINs. I also proved a filter was redundant by counting what it would catch.

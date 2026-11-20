@@ -31,3 +31,4 @@
 | 2026-11-17 | Lesson 5 | Used an unnecessary ::numeric cast in ROUND | Column was already numeric | Only cast when the column type needs it; check the column type first |
 | 2026-11-20 | Bridge B | Ran the whole editor, so CREATE TABLE failed ("already exists") and stopped the rest | F5 runs everything when nothing is highlighted | Highlight only the statement to run, and comment out statements that already worked |
 | 2026-11-20 | Bridge B | Ran lesson example lines (including a DROP) without checking what they did | Treated illustrations as exercises | Read each statement before running it; never run DROP or DELETE without a check |
+| 2026-11-20 | Challenge 3 | (No error) Improvement: late counts compare people unfairly | Counts ignore how many orders each person handled | Use a rate (late / total orders) once conditional counting or JOINs are available |

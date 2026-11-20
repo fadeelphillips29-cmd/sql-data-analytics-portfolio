@@ -13,3 +13,4 @@
 | 2026-11-17 | Phase 1 | Challenge 2: Second-half order performance | Complete | COUNT(column) skips NULLs; no comma after the last column; use the exact alias names asked for |
 | 2026-11-17 | Phase 1 | Lesson 5: GROUP BY and HAVING | Complete | GROUP BY = per-group aggregates; WHERE filters rows, HAVING filters groups; HAVING repeats the formula |
 | 2026-11-20 | Phase 1 | Bridge B: CREATE, INSERT, UPDATE, DELETE, ALTER | Complete | SELECT first, then UPDATE/DELETE with the same WHERE; constraints reject bad data; highlight one statement before running |
+| 2026-11-20 | Phase 1 | Challenge 3: Late deliveries by salesperson | Complete | WHERE filters rows, HAVING filters groups; NULL dates drop out of comparisons; counts need rates to compare fairly |
