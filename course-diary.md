@@ -69,3 +69,5 @@ Built a maintenance jobs table, inserted, updated and deleted rows, and saw a CH
 Got it right first time. Employee 5 has the most late orders (7), but a count is not a fair measure without total orders, so I want to build a late rate after JOINs. I also proved a filter was redundant by counting what it would catch.
 ### 2026-11-20: Lesson 6 (JOINs)
 Joined orders with customer and salesperson names, found 9 customers who never ordered, built the organisation chart with a self-join, and proved a three-table join does not change the total revenue. Biggest lesson: read the output, because queries can run and still be wrong.
+### 2026-11-20: Challenge 4 (Salesperson revenue ranking)
+Got the three-table ranking right first time: Megan Fourie leads with 1.66M. Cross-checked the total, found cancelled orders hold about 486k of revenue, and learned that a very large order (1023) being "Shipped" does not prove it is correct.

@@ -14,3 +14,6 @@
 | 2026-11-17 | Phase 1 | Lesson 5: GROUP BY and HAVING | Complete | GROUP BY = per-group aggregates; WHERE filters rows, HAVING filters groups; HAVING repeats the formula |
 | 2026-11-20 | Phase 1 | Bridge B: CREATE, INSERT, UPDATE, DELETE, ALTER | Complete | SELECT first, then UPDATE/DELETE with the same WHERE; constraints reject bad data; highlight one statement before running |
 | 2026-11-20 | Phase 1 | Challenge 3: Late deliveries by salesperson | Complete | WHERE filters rows, HAVING filters groups; NULL dates drop out of comparisons; counts need rates to compare fairly |
+| 2026-11-20 | Phase 1 | Lesson 6: JOINs | Complete | JOIN matches foreign key to primary key; LEFT JOIN + IS NULL finds missing rows; use consistent aliases and read the output |
+| 2026-11-20 | Phase 1 | Challenge 4: Salesperson revenue ranking | Complete | Count orders with COUNT(DISTINCT) after joining items; cross-check totals; exclude cancelled orders |
+| 2026-11-20 | Challenge 4 | (No error) The same long SUM expression appears twice | An alias cannot be reused in the same SELECT | Use a CTE to calculate once and reuse (Lesson 7) |
