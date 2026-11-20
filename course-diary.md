@@ -67,3 +67,5 @@ Group counts added up to the 42 customers, and HAVING visibly removed a small st
 Built a maintenance jobs table, inserted, updated and deleted rows, and saw a CHECK constraint reject a negative value. Biggest lesson: SELECT first with the same WHERE, and compare the row count before changing anything.
 ### 2026-11-20: Challenge 3 (Late deliveries by salesperson)
 Got it right first time. Employee 5 has the most late orders (7), but a count is not a fair measure without total orders, so I want to build a late rate after JOINs. I also proved a filter was redundant by counting what it would catch.
+### 2026-11-20: Lesson 6 (JOINs)
+Joined orders with customer and salesperson names, found 9 customers who never ordered, built the organisation chart with a self-join, and proved a three-table join does not change the total revenue. Biggest lesson: read the output, because queries can run and still be wrong.
